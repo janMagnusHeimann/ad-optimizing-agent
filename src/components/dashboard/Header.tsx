@@ -12,7 +12,7 @@ const Header = () => {
     <header className={`${isDarkMode ? 'bg-gray-900 border-gray-700' : 'bg-white border-gray-200'} border-b px-6 py-4 transition-colors`}>
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
-          <h1 className={`text-2xl font-bold ${isDarkMode ? 'text-white' : 'text-brand-blue'}`}>Ad Insight Horizon</h1>
+          <h1 className={`text-2xl font-bold ${isDarkMode ? 'text-white' : 'text-brand-blue'}`}>Ad Optimizing Agent</h1>
         </div>
         <div className="flex items-center gap-4">
           <span className={`${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>Welcome, {user?.username || "User"}</span>
