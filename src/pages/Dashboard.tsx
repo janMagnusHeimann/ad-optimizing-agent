@@ -9,9 +9,11 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 const Dashboard = () => {
   return (
     <div className="min-h-screen flex flex-col bg-background">
-      <Header />
-      <div className="absolute top-4 right-4 z-10">
-        <ThemeToggle />
+      <div className="relative">
+        <Header />
+        <div className="absolute top-4 right-4 z-10">
+          <ThemeToggle />
+        </div>
       </div>
       <div className="container mx-auto py-8 px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
